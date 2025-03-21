@@ -1,0 +1,170 @@
+# Resumen ejecutivo
+
+Este proyecto nace de los alumnos de séptimo año de la escuela secundaria de la localidad de Los Cerrillos "I.P.E.A N° 230 Dr. Amadeo Sabattini" y el docente Ing. Fernando Parra, en conjunto con la organización local en restauración ecológica "Zapam Zucum" y "ForkDAO". Se pretende desarrollar distintas actividades vinculadas al aporte de conocimientos y herramientas para mejorar la calidad de vida de las personas de la localidad de Los Cerrillos, afectadas por la deriva de agroquímicos de las plantaciones de papa y otros cultivos extensivos.
+
+## Introducción
+
+"Los Cerrillos es una localidad cordobesa situada en el departamento San Javier, provincia de Córdoba, Argentina. Se encuentra a 27km. de la ciudad de Villa Dolores y a 230km (Sur Oeste) de la ciudad de Córdoba, en el Valle de Traslasierra."
+
+![](https://hackmd.io/_uploads/S1fK1Yz3h.png)
+
+Su principal actividad económica es la agricultura. Principalmente la producción de papa (juntada, cortada) la cual se hace la mayor parte del año (papa de invierno y papa de verano).
+
+El contexto de la agricultura convencional y el uso de agroquímicos está regulado por legislación nacional y provincial, Ley General de Ambiente 25.675 de Argentina, Ley provincial de Agroquímicos 9.164 de la Provincia de Córdoba, Ley Nº 24.051 de Residuos Sólidos, Tóxicos y Peligrosos y por el Artículo 41 de la Constitución Nacional: "Todos los habitantes gozan del derecho a un ambiente sano, equilibrado, apto para el desarrollo humano y para que las actividades productivas satisfagan las necesidades presentes sin comprometer las de las generaciones futuras; y tienen el deber de preservarlo."
+
+En la localidad de Los Cerrillos, los cultivos de papa y otras producciones, se encuentran en situaciones de irregularidad con respecto a las leyes nacionales y provinciales en vigencia. Detectamos que aquello aumenta los riesgos y vulnerabilidad de la población que en la actualidad padece de distintas afecciones relacionadas a problemas respiratorios, distintos tipos de cáncer, abortos espontáneos, afecciones de la piel, entre otras. La implementación de la cortina forestal pretende brindar una solución basada en la naturaleza, que contribuya a la disminución de la deriva de agroquímicos que ingresa al área de viviendas del Pueblo de Los Cerrillos. Se pretende mediante este instrumento, obtener mayor protección a la salud de la población y calidad de vida en general. Su realización estará también complementada por actividades de charlas/taller sobre la problemática y actividades artísticas participativas en las cuales se trabaje con la temática de calidad de vida, ambiente sano, agroecología, y otras relacionadas.
+
+## Objetivos y especificaciones
+
+El objetivo general de este proyecto es mejorar las condiciones de vida de la población del pueblo de Los Cerrillos.
+
+**Objetivos específicos:**
+
+- Disminuir el ingreso de deriva de agroquímicos al pueblo:
+  - La gestión de ordenanza comunal que avale y brinde el permiso de inicio de obra.
+  - Todas las actividades orientadas a la plantación de la barrera forestal, y a la instalación de los implementos de riego. Las mismas serán realizadas por los alumnos de la escuela como prácticas relacionadas a los conocimientos adquiridos en la escuela secundaria I.P.E.A N° 230 Dr. Amadeo Sabattini brindadas por el docente Ing. Fernando Parra que lleva adelante el proyecto con los alumnos.
+  - Todas las actividades de mantenimiento de los ejemplares que conforman la cortina; y al sistema de riego instalado. A realizarse por los alumnos y personal de la Comuna.
+  - Se realizará una convocatoria abierta a voluntarios y voluntarias para las actividades de plantación.
+
+- Aumentar el conocimiento de los habitantes de Los Cerrillos sobre la problemática sanitaria de los agrotóxicos.
+  - 3 Jornadas de charla taller gratuitas y abiertas a toda la población. Se convocará también a los actores institucionales clave en la gestión territorial de la localidad. Las charlas serán brindadas por referentes en la defensa de la salud, el ambiente y los derechos humanos.
+  - 2 Jornadas de realización de mural comunitario, coordinado por la artista plástica y muralista socioambiental "Camila Mandrágora".
+  - Festival de cierre de cada jornada con artistas locales y regionales.
+
+- Generar alternativas o nuevas posibilidades de empleo.
+  - Orientación de las charlas-taller a temáticas relacionadas con alternativas de producción de papa agroecológica y a soluciones tomadas por las experiencias de otros pueblos fumigados.
+  - Realizar jornadas de capacitación al ecosistema Crypto y Web3.
+
+## Calendario/cronograma de actividades
+
+(El orden de las charlas e intervenciones artísticas puede estar sujeto a modificaciones).
+
+**1era etapa:**
+
+- Sábado 16 de septiembre
+  - 14:00 Charla Médico Medardo Ávila.
+  - 15:30 Merienda.
+  - 16:30 Plantación.
+  - 19:30 Cierre musical. Barrial Brass Band.
+
+- Domingo 17 de septiembre
+  - 14:00 Charla Ing. Cesar Gramaglia, INTA Villa Dolores. Producción de papa libre de agroquímicos. Producción de alimentos en Zonas de resguardo ambiental.
+  - 15:30 Merienda.
+  - 16:30 Plantación.
+  - 19:30 Horario de Cierre de jornada.
+
+**2da etapa:**
+
+- Sábado 23 de septiembre
+  - 14:00 Charla Sofía Gatica & Madres B Ituzaingo.
+  - 15:30 Merienda.
+  - 16:30 Plantación.
+  - 19:30 Cierre Musical.
+
+- Domingo 24 de septiembre
+  - 14:00 Fernando Parra y alumnos de la escuela sobre el proyecto cortina forestal. Objetivos.
+  - 15:30 Merienda.
+  - 16:30 Plantación.
+  - 19:30 Horario de Cierre de jornada.
+
+**3era etapa:**
+
+- Sábado 30 de septiembre
+  - 14:00 Actividad Mural
+  - 15:30 Merienda.
+  - 16:30 Plantación
+  - 19:30 Cierre Musical.
+
+- Domingo 01 de Octubre
+  - 14:00 Charla Luciana Moreno. Secretaria Ambiente M. VCP. Referente "Pären de Fumigar" Municipio libre de agroquímicos.
+  - 15:30 Merienda.
+  - 16:30 Plantación + Actividad mural
+  - 19:30 Horario de Cierre de jornada.
+
+## Monitoreo y reporte
+
+Por cada objetivo específico se realizará un informe de todas las actividades. En cada informe se incluirán registro de audio y video de todas las actividades. Por las jornadas de charla taller se entregarán planillas de asistencia a las jornadas de charla taller. Se realizarán planillas de monitoreo que serán completadas cada 6 meses de la cortina forestal que incluyen, especies, tasa de crecimiento en altura y diámetro del tronco principal, registro fotográfico con observaciones, tasa total de supervivencia de los ejemplares, requerimientos de nuevos ejemplares, respuesta a exposiciones a herbicidas de los cultivos, entre otros que resulten pertinentes a la evaluación de la implementación de la cortina forestal. Realizaremos 2 videos editados para redes sociales de mural participativo. Y producción fotográfica con imágenes editadas para redes sociales. Realizaremos 4 videos editados para redes sociales del festival musical. Y producción fotográfica con imágenes editadas para redes sociales. Se mostrarán en vivo el desarrollo de todas las actividades del proyecto, en "vivos" y "spaces", y publicaciones de las redes sociales de Zapam Zucum y ForkDAO.
+
+## Presupuesto y financiación
+
+**Detalles (En pesos Argentinos)**
+
+**Total por etapa en pesos argentinos y en dólares.**
+
+**Primera Etapa**
+
+- Cortina Sur 1.300 metros: 520 ejemplares x $1.950 c/u: $1.014.000.
+- Sistema de riego por goteo: $235.000
+- Tutores árboles: ($200 c/u.) x 520 : $104.000
+- Viáticos Combustible facilitadores talleres: $30.000
+- Refrigerio para asistentes a las actividades: $30.000
+- Viáticos Cierre Musical $30.000
+- Coordinación de actividades 4 personas: $80.000
+- Registro audio y video: $50.000 
+- Viáticos registro: $10.000
+- Landing page: $120.000
+
+Total 1era etapa: $1.703.000 (un millón setecientos tres mil pesos argentinos)
+Total 1era etapa a valor dólar blue: $2.862 (dos mil ochocientos sesenta y dos dólares)
+(A Valor dólar blue $595)
+
+**Segunda Etapa**
+
+- Cortina Éste 1000 metros. 380 plantas x $1.950 c/u: $741.000
+- Sistema de riego por goteo: $180.000
+- Tutores árboles: ($200 c/u.) x 380 = $76.000 
+- Viáticos Combustible facilitadores talleres: $40.000
+- Refrigerio para asistentes a las actividades: $30.000
+- Músicos $30.000
+- Coordinación de actividades 4 personas: $80.000
+- Registro audio y video: $50.000
+- Viáticos registro: $10.000
+
+Total 2da etapa: $1.237.000 (1 millon doscientos treinta y siete mil pesos argentinos)
+Total 2da etapa a valor dólar blue: $2.078 (dos mil setenta y ocho dólares)
+(A Valor dólar blue $595)
+
+**Tercera Etapa**
+
+- Cortina Oeste 750 metros. 300 plantas x $1.950 c/u:  $585.000
+- Sistema de riego por goteo: $130.000
+- Tutores árboles: ($200 c/u.) x 300: $60.000
+- Viáticos Combustible facilitadores talleres: $40.000
+- Refrigerio para asistentes a las actividades: $30.000
+- Viáticos Cierre Musical $30.000
+- Coordinación de actividades 4 personas: $80.000
+- Registro audio y video: $50.000
+- Viáticos registro: $10.000
+- Actividad Mural: $55.775
+
+Total 3era etapa: $1.070.000 (1 millón setenta mil pesos argentinos)
+Total 3era etapa a valor dólar blue: $1.798 (mil setecientos noventa y ocho dólares)
+(A Valor dólar blue $595)
+
+**Monitoreo y Reporte**
+
+2 visitas + Insumos + registro: $50.000
+
+**Total ejecución proyecto completo:**
+
+Total en pesos argentinos: $4.060.000 (cuatro millones sesenta mil)
+
+Total en dólares: $6.823 (seis mil ochocientos veintitrés)
+
+## Landing page
+
+**Detalles (En dólares)**
+
+Como un agregado a pedido exclusivo de Fork Forest, se destinarán 150 dólares para la creación de un sitio web que albergue la información pertinente tanto del primer proyecto como de éste y los posteriores.
+
+Dicha tarea quedará a cargo de los usuarios @Gauf10 y @AyrDaSilva. Se actualizará el sitio web del dominio http://forest.forkdaogov.xyz. El trabajo se entregará entre agosto y septiembre. 
+
+**Única etapa**
+
+- Honorarios por el trabajo de dos personas para la creación del sitio web:  us$150
+
+Argentina, jueves 10 de agosto del 2023.
+Firman:
+Maximiliano Fechenbach, DNI 37072179
+Sol Penélope Paz, DNI 34258718
+Fernando Parra, DNI 24247380

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { 
   Trees, 
   Heart, 
@@ -31,9 +32,9 @@ function App() {
             <span className="text-white text-2xl font-bold">Fork Forest</span>
           </div>
           <div className="flex space-x-6 text-white">
+            <a href="#about" className="hover:text-green-400">About</a>
             <a href="#projects" className="hover:text-green-400">Projects</a>
             <a href="#gallery" className="hover:text-green-400">Gallery</a>
-            <a href="#about" className="hover:text-green-400">About</a>
             <a href="#donate" className="hover:text-green-400">Donate</a>
           </div>
         </nav>
@@ -46,104 +47,13 @@ function App() {
             Join us in our mission to create sustainable forests and protect local communities through environmental initiatives.
           </p>
           <a 
-            href="#donate"
+            href="#about"
             className="bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition duration-300"
           >
-            Support Our Mission
+            Learn More
           </a>
         </div>
       </header>
-
-      {/* Projects Section */}
-      <section id="projects" className="py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Our Impact Stories</h2>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Los Cerrillos Project */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img 
-                src="/imiagenes/photo_2025-03-17_21-50-55.jpg"
-                alt="Los Cerrillos Project"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Los Cerrillos Forest Barrier</h3>
-                <p className="text-gray-600 mb-4">
-                  Creating a protective forest barrier to shield the community from agricultural chemicals while promoting biodiversity.
-                </p>
-                <div className="flex items-center text-green-600">
-                  <span>Learn more</span>
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </div>
-              </div>
-            </div>
-
-            {/* Project 2 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img 
-                src="/imiagenes/photo_2025-03-17_21-50-56.jpg"
-                alt="Urban Forest Project"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Urban Forest Initiative</h3>
-                <p className="text-gray-600 mb-4">
-                  Transforming urban spaces into green havens through strategic tree planting and community engagement.
-                </p>
-                <div className="flex items-center text-green-600">
-                  <span>Learn more</span>
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </div>
-              </div>
-            </div>
-
-            {/* Project 3 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img 
-                src="/imiagenes/photo_2025-03-17_21-50-58.jpg"
-                alt="Education Program"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Environmental Education</h3>
-                <p className="text-gray-600 mb-4">
-                  Empowering future generations through hands-on learning about forest conservation and sustainability.
-                </p>
-                <div className="flex items-center text-green-600">
-                  <span>Learn more</span>
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Gallery Section */}
-      <section id="gallery" className="bg-gray-100 py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Project Gallery</h2>
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <img 
-              src="/imiagenes/photo_2025-03-17_21-51-07.jpg"
-              alt="Project Photo 1"
-              className="w-full h-64 object-cover rounded-lg"
-            />
-            <img 
-              src="/imiagenes/photo_2025-03-17_21-51-09.jpg"
-              alt="Project Photo 2"
-              className="w-full h-64 object-cover rounded-lg"
-            />
-            <img 
-              src="/imiagenes/photo_2025-03-17_21-51-13.jpg"
-              alt="Project Photo 3"
-              className="w-full h-64 object-cover rounded-lg"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* About Section */}
       <section id="about" className="py-20 px-6">
@@ -179,6 +89,121 @@ function App() {
                 className="rounded-lg shadow-lg"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-16">Our Impact Stories</h2>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Los Cerrillos Project */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img 
+                src="/imiagenes/photo_2025-03-17_21-50-55.jpg"
+                alt="Los Cerrillos Project"
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3">Los Cerrillos Forest Barrier</h3>
+                <p className="text-gray-600 mb-4">
+                  Creating a protective forest barrier to shield the community from agricultural chemicals while promoting biodiversity.
+                </p>
+                <Link to="/ForkForest02" className="flex items-center text-green-600">
+                  <span>View Gallery</span>
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Project 2 */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img 
+                src="/imiagenes/photo_2025-03-17_21-50-56.jpg"
+                alt="Urban Forest Project"
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3">Urban Forest Initiative</h3>
+                <p className="text-gray-600 mb-4">
+                  Transforming urban spaces into green havens through strategic tree planting and community engagement.
+                </p>
+                <Link to="/ForkForest01" className="flex items-center text-green-600">
+                  <span>View Gallery</span>
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Project 3 */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img 
+                src="/imiagenes/photo_2025-03-17_21-50-58.jpg"
+                alt="Education Program"
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3">Environmental Education</h3>
+                <p className="text-gray-600 mb-4">
+                  Empowering future generations through hands-on learning about forest conservation and sustainability.
+                </p>
+                <Link to="/ForkForest03" className="flex items-center text-green-600">
+                  <span>View Gallery</span>
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section id="gallery" className="bg-gray-100 py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-16">Project Gallery</h2>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <img 
+              src="/imiagenes/photo_2025-03-17_21-51-07.jpg"
+              alt="Project Photo 1"
+              className="w-full h-64 object-cover rounded-lg"
+            />
+            <img 
+              src="/imiagenes/photo_2025-03-17_21-51-09.jpg"
+              alt="Project Photo 2"
+              className="w-full h-64 object-cover rounded-lg"
+            />
+            <img 
+              src="/imiagenes/photo_2025-03-17_21-51-13.jpg"
+              alt="Project Photo 3"
+              className="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          
+          <div className="mt-10 flex justify-center space-x-8">
+            <Link 
+              to="/ForkForest01" 
+              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center"
+            >
+              <Camera className="w-5 h-5 mr-2" />
+              <span>FORK FOREST 01: Urkku</span>
+            </Link>
+            <Link 
+              to="/ForkForest02" 
+              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center"
+            >
+              <Camera className="w-5 h-5 mr-2" />
+              <span>FORK FOREST 02: Los Cerrillos</span>
+            </Link>
+            <Link 
+              to="/ForkForest03" 
+              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center"
+            >
+              <Camera className="w-5 h-5 mr-2" />
+              <span>FORK FOREST 03: Muralla viva II</span>
+            </Link>
           </div>
         </div>
       </section>

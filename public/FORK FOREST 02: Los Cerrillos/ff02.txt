@@ -1,0 +1,127 @@
+# FORK FOREST 02: Los Cerrillos
+
+![](https://hackmd.io/_uploads/HkoyNiMhn.jpg)
+
+## Resumen:
+
+
+Es un honor y un gusto anunciar la colaboración de la comunidad de ForkDAO en la búsqueda de financiamiento para la primera etapa del proyecto de la Barrera Forestal en Los Cerrillos. Este proyecto, liderado por los estudiantes de séptimo año de la escuela secundaria "I.P.E.A N° 230 Dr. Amadeo Sabattini", busca mitigar la exposición a agroquímicos derivados de cultivos extensivos, mejorando así la calidad de vida de la comunidad local.
+
+## Motivación:
+
+Esta colaboración refleja nuestro firme compromiso con los valores de responsabilidad social y la promoción de proyectos de impacto positivo. Agradecemos profundamente el apoyo continuo de la comunidad de ForkDAO en esta trascendental fase de búsqueda de financiamiento.
+
+## Detalles del proyecto:
+
+![](https://hackmd.io/_uploads/Hy4zhjfh3.jpg)
+
+Con el fin de mejorar las condiciones de vida de los habitantes, proponemos adquirir aproximadamente 1200 árboles para establecer una Barrera Forestal que cubrirá un área total de 51.000 m^2. La estructura de la barrera tendrá un ancho y longitud estimados de 3100m lineales y se utilizarán especies de árboles resistentes a los agroquímicos. La propuesta se dividirá en etapas:
+
+(El orden de las charlas e intervenciones artísticas puede estar sujeto a modificaciones).
+
+**1era etapa:**
+Sábado 16 de septiembre
+
+14:00 Charla Médico Medardo Ávila.
+15:30 Merienda.
+16:30 Plantación.
+19:30 Cierre musical. Barrial Brass Band.
+Domingo 17 de septiembre
+
+14:00 Charla Cesar Gramaglia. Producción de papa libre de agroquímicos.
+15:30 Merienda.
+16:30 Plantación.
+19:30 Horario de Cierre de jornada.
+
+**2da etapa:**
+
+Sábado 23 de septiembre
+
+14:00 Charla Sofía Gatica & Madres B Ituzaingo.
+15:30 Merienda.
+16:30 Plantación.
+19:30 Cierre Musical.
+Domingo 24 de septiembre
+
+14:00 Fernando Parra y alumnos de la escuela sobre el proyecto cortina forestal. Objetivos.
+15:30 Merienda.
+16:30 Plantación.
+19:30 Horario de Cierre de jornada.
+
+**3era etapa:**
+
+Sábado 30 de septiembre
+
+14:00 Actividad Mural
+15:30 Merienda.
+16:30 Plantación
+19:30 Cierre Musical.
+Domingo 01 de Octubre
+
+14:00 Charla Luciana Moreno. Secretaria Ambiente M. VCP. Referente “Pären de Fumigar” Municipio libre de agroquímicos.
+15:30 Merienda.
+16:30 Plantación + Actividad mural
+19:30 Horario de Cierre de jornada.
+
+## Financiación del proyecto:
+
+La comunidad de ForkDAO ha decidido asumir un papel activo en la obtención de recursos financieros para la primera etapa de este proyecto crucial. Reconocemos la importancia de esta iniciativa para el bienestar de la población en Los Cerrillos y, como tal, estamos dedicando nuestros recursos y experiencia para asegurar el éxito de esta fase inicial.
+
+Nos presentaremos a diferentes programas de financiamiento disponibles en el ecosistema, como FORK FOREST, con el objetivo de recaudar los fondos necesarios para realizar el proyecto. En esta ocasión, presentaremos nuestra solicitud en la próxima ronda de Gitcoin. 
+
+![](https://hackmd.io/_uploads/BJdBchfh2.jpg)
+
+Para tal fin contamos con una Wallet multifirma en la red Optimisim:
+oeth:0x84E420915147625c11c265FA61AEC826347204D1
+
+
+## Reconocimiento y estudio del terreno:
+
+![](https://hackmd.io/_uploads/rJ84ssfn2.jpg)
+
+**Los Cerrillos**
+
+![](https://hackmd.io/_uploads/r1iSjjMhn.jpg)
+
+
+## Comunicación y divulgación:
+
+Por cada objetivo específico se realizará un informe de todas las actividades. En cada informe se incluirán registro de audio y video de todas las actividades. Por las jornadas de charla taller se entregarán planillas de asistencia a las jornadas de charla taller. Se realizarán planillas de monitoreo que serán completadas cada 6 meses de la cortina forestal que incluyen, especies, tasa de crecimiento en altura y diámetro del tronco principal, registro fotográfico con observaciones, tasa total de supervivencia de los ejemplares, requerimientos de nuevos ejemplares, respuesta a exposiciones a herbicidas de los cultivos, entre otros que resulten pertinentes a la evaluación de la implementación de la cortina forestal. Realizaremos 2 videos editados para redes sociales de mural participativo. Y producción fotográfica con imágenes editadas para redes sociales. Realizaremos 4 videos editados para redes sociales del festival musical. Y producción fotográfica con imágenes editadas para redes sociales. Se mostrarán en vivo el desarrollo de todas las actividades del proyecto, en "vivos" y "spaces", y publicaciones de las redes sociales de Zapam Zucum y ForkDAO.
+
+![](https://hackmd.io/_uploads/HyYRxxXn3.jpg)
+
+
+https://open.spotify.com/show/3mbOZyvQj2rGUpaBuXbgDk
+
+## Estrategia de Colaboración:
+
+**Investigación Rigurosa:** Nuestro equipo de expertos llevará a cabo una investigación exhaustiva en busca de oportunidades de financiamiento en el entorno del ecosistema Web3. Evaluar con detenimiento protocolos DeFi, plataformas de financiamiento colectivo y programas de subvenciones que estén alineados con los valores y los objetivos delineados por el proyecto de la Barrera Forestal.
+
+**Elaboración de Propuestas:** Basándonos en los hallazgos de la investigación, prepararemos propuestas sólidas y detalladas con el fin de solicitar los fondos necesarios. Cada propuesta se concebirá minuciosamente para demostrar de manera convincente la viabilidad y los efectos positivos que la primera etapa del proyecto acarreará.
+
+**Transparencia y Comunicación Continua:** Mantendremos una comunicación transparente y continua con la comunidad de ForkDAO en todas las fases del proceso. Compartiremos actualizaciones acerca de las solicitudes presentadas, las respuestas recibidas y los avances significativos que se registren en la búsqueda de financiamiento.
+
+**Gestión Responsable de los Fondos:** En el caso de obtener el financiamiento necesario, administraremos los recursos con el máximo nivel de responsabilidad y transparencia. Los fondos se asignarán de manera prudente a distintas áreas de la primera etapa, en concordancia con los requisitos y prioridades previamente acordados.
+
+
+
+## Trabajo en territorio:
+
+![](https://hackmd.io/_uploads/HyeWjsM32.jpg)
+
+## Seguimiento:
+
+https://t.me/forkdaoes/https://t.me/forkdaoes/25325
+https://linktr.ee/forkdaoes
+
+## Referencias:
+
+Peny redzapamzucum@gmail.com
+Fer Parra
+Max, https://t.me/Brujula00
+Berty, https://t.me/berty_00
+MoniK, https://t.me/MoniK74
+Sobol, https://t.me/aasobol
+Ekeko, https://t.me/ekekollcem
+Gauf, https://t.me/gauf10
+Fran, https://t.me/l18630
