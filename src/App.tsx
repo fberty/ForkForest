@@ -1,13 +1,10 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Trees, 
   Heart, 
   Instagram, 
   Twitter, 
   Github,
   ArrowRight,
-  Camera,
   Users,
   Leaf
 } from 'lucide-react';
@@ -19,8 +16,8 @@ function App() {
       <header className="relative h-screen">
         <div className="absolute inset-0">
           <img 
-            src="/imiagenes/photo_2025-03-17_21-50-03.jpg"
-            alt="Forest"
+            src="/Fork Forest/photo_2025-03-21_10-43-52.jpg"
+            alt="Forest Background"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -28,32 +25,31 @@ function App() {
         
         <nav className="relative z-10 flex justify-between items-center px-6 py-4">
           <div className="flex items-center space-x-2">
-            <Trees className="h-8 w-8 text-green-400" />
-            <span className="text-white text-2xl font-bold">Fork Forest</span>
+            <img 
+              src="/Fork Forest/fork_forest_transparent.png"
+              alt="Fork Forest Logo"
+              className="h-16 w-auto"
+            />
           </div>
           <div className="flex space-x-6 text-white">
             <a href="#about" className="hover:text-green-400">About</a>
             <a href="#projects" className="hover:text-green-400">Projects</a>
-            <a href="#gallery" className="hover:text-green-400">Gallery</a>
             <a href="#donate" className="hover:text-green-400">Donate</a>
           </div>
         </nav>
-
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            Planting Hope.<br />Growing Future.
-          </h1>
-          <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-            Join us in our mission to create sustainable forests and protect local communities through environmental initiatives.
-          </p>
-          <a 
-            href="#about"
-            className="bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition duration-300"
-          >
-            Learn More
-          </a>
-        </div>
       </header>
+
+      {/* Elementos de texto movidos aquí */}
+      <div className="bg-green-50 py-12 px-6 text-center">
+        <h1 className="text-5xl md:text-6xl font-bold text-green-800 mb-4">
+          Planting Hope.<br />
+          Growing Future.
+        </h1>
+        <p className="text-xl text-green-700 mb-8 max-w-2xl mx-auto">
+          Join us in our mission to create sustainable forests and protect local 
+          communities through environmental initiatives.
+        </p>
+      </div>
 
       {/* About Section */}
       <section id="about" className="py-20 px-6">
@@ -61,12 +57,18 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-6">About Fork Forest</h2>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-4">
                 Fork Forest is a community-driven initiative focused on creating sustainable environmental solutions through forest conservation and community engagement. Our projects combine ecological restoration with social impact, ensuring a better future for both nature and people.
               </p>
+              <Link 
+                to="/about" 
+                className="inline-block px-6 py-2 mb-6 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+              >
+                Learn More
+              </Link>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <Trees className="w-8 h-8 mx-auto text-green-600 mb-2" />
+                  <Users className="w-8 h-8 mx-auto text-green-600 mb-2" />
                   <p className="font-bold text-2xl">1200+</p>
                   <p className="text-gray-600">Trees Planted</p>
                 </div>
@@ -84,9 +86,10 @@ function App() {
             </div>
             <div>
               <img 
-                src="/imiagenes/photo_2025-03-17_21-51-14.jpg"
+                src="/FORK FOREST 02: Los Cerrillos/Territorio/photo_2025-03-17_21-51-14.jpg"
                 alt="Team working"
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg w-full h-auto"
+                style={{ maxHeight: '500px', objectFit: 'cover' }}
               />
             </div>
           </div>
@@ -99,34 +102,16 @@ function App() {
           <h2 className="text-4xl font-bold text-center mb-16">Our Impact Stories</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Los Cerrillos Project */}
+            {/* Project 1 - Urkku */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/imiagenes/photo_2025-03-17_21-50-55.jpg"
-                alt="Los Cerrillos Project"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Los Cerrillos Forest Barrier</h3>
-                <p className="text-gray-600 mb-4">
-                  Creating a protective forest barrier to shield the community from agricultural chemicals while promoting biodiversity.
-                </p>
-                <Link to="/ForkForest02" className="flex items-center text-green-600">
-                  <span>View Gallery</span>
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
-              </div>
-            </div>
-
-            {/* Project 2 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img 
-                src="/imiagenes/photo_2025-03-17_21-50-56.jpg"
+                src="/FORK FOREST 01: Urkku/Territorio/photo_2023-03-22_10-50-55.jpg"
                 alt="Urban Forest Project"
-                className="w-full h-48 object-cover"
+                className="w-full h-64 object-cover"
+                style={{ objectPosition: 'center' }}
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Urban Forest Initiative</h3>
+                <h3 className="text-xl font-bold mb-3">FORK FOREST 01:<br />Urkku: Ecological conservation</h3>
                 <p className="text-gray-600 mb-4">
                   Transforming urban spaces into green havens through strategic tree planting and community engagement.
                 </p>
@@ -137,17 +122,38 @@ function App() {
               </div>
             </div>
 
-            {/* Project 3 */}
+            {/* Project 2 - Los Cerrillos */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/imiagenes/photo_2025-03-17_21-50-58.jpg"
-                alt="Education Program"
-                className="w-full h-48 object-cover"
+                src="/FORK FOREST 02: Los Cerrillos/photo_2025-03-21_10-45-41.jpg"
+                alt="Los Cerrillos Project"
+                className="w-full h-64 object-cover"
+                style={{ objectPosition: 'center' }}
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Environmental Education</h3>
+                <h3 className="text-xl font-bold mb-3">FORK FOREST 02<br />Los Cerrillos: Forest Barrier</h3>
                 <p className="text-gray-600 mb-4">
-                  Empowering future generations through hands-on learning about forest conservation and sustainability.
+                  Creating a protective forest barrier to shield the community from agricultural chemicals while promoting biodiversity.
+                </p>
+                <Link to="/ForkForest02" className="flex items-center text-green-600">
+                  <span>View Gallery</span>
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Project 3 - Environmental Education */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img 
+                src="/FORK FOREST 03: Muralla viva II/photo_2025-03-21_10-43-04.jpg"
+                alt="Education Program"
+                className="w-full h-64 object-cover"
+                style={{ objectPosition: 'center' }}
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3">FORK FOREST 03: Environmental & Crypto Education</h3>
+                <p className="text-gray-600 mb-4">
+                  Empowering future generations with hands-on learning in forest conservation, sustainability, and blockchain/Web3 technology, supported by Proof of Integrity.
                 </p>
                 <Link to="/ForkForest03" className="flex items-center text-green-600">
                   <span>View Gallery</span>
@@ -159,61 +165,12 @@ function App() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section id="gallery" className="bg-gray-100 py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">Project Gallery</h2>
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <img 
-              src="/imiagenes/photo_2025-03-17_21-51-07.jpg"
-              alt="Project Photo 1"
-              className="w-full h-64 object-cover rounded-lg"
-            />
-            <img 
-              src="/imiagenes/photo_2025-03-17_21-51-09.jpg"
-              alt="Project Photo 2"
-              className="w-full h-64 object-cover rounded-lg"
-            />
-            <img 
-              src="/imiagenes/photo_2025-03-17_21-51-13.jpg"
-              alt="Project Photo 3"
-              className="w-full h-64 object-cover rounded-lg"
-            />
-          </div>
-          
-          <div className="mt-10 flex justify-center space-x-8">
-            <Link 
-              to="/ForkForest01" 
-              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center"
-            >
-              <Camera className="w-5 h-5 mr-2" />
-              <span>FORK FOREST 01: Urkku</span>
-            </Link>
-            <Link 
-              to="/ForkForest02" 
-              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center"
-            >
-              <Camera className="w-5 h-5 mr-2" />
-              <span>FORK FOREST 02: Los Cerrillos</span>
-            </Link>
-            <Link 
-              to="/ForkForest03" 
-              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center"
-            >
-              <Camera className="w-5 h-5 mr-2" />
-              <span>FORK FOREST 03: Muralla viva II</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Donation Section */}
       <section id="donate" className="bg-green-50 py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <Heart className="w-16 h-16 text-green-600 mx-auto mb-6" />
           <h2 className="text-4xl font-bold mb-6">Support Our Mission</h2>
-          <p className="text-gray-600 mb-8 max-w-2xl">
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             Your contribution helps us continue our work in forest conservation and community protection. Every donation makes a difference in creating a more sustainable future.
           </p>
           <a 
@@ -224,9 +181,12 @@ function App() {
           >
             Donate Now <ArrowRight className="ml-2 w-4 h-4" />
           </a>
-          <p className="text-sm text-gray-500 mt-4">
-            Wallet Address: oeth:0x84E420915147625c11c265FA61AEC826347204D1
-          </p>
+          <div className="text-sm text-gray-500 mt-4">
+            <p>Wallet Addresses:</p>
+            <p>OETH: 0x84E420915147625c11c265FA61AEC826347204D1</p>
+            <p>ARB1: 0xB3C58fFa0BBC48138776fD9cc174e89f51397e65</p>
+            <p>CELO: 0xBDD87C2ca3d916f4f9f1930e7FF3A313743AaB87</p>
+          </div>
         </div>
       </section>
 
@@ -234,9 +194,12 @@ function App() {
       <footer className="bg-gray-900 text-white py-12 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-6 md:mb-0">
-              <Trees className="h-8 w-8 text-green-400" />
-              <span className="text-2xl font-bold">Fork Forest</span>
+            <div className="mb-6 md:mb-0">
+              <img 
+                src="/Fork Forest/fork_forest_transparent.png"
+                alt="Fork Forest Logo"
+                className="h-16 w-auto"
+              />
             </div>
             <div className="flex space-x-6">
               <a href="https://instagram.com" className="hover:text-green-400">
