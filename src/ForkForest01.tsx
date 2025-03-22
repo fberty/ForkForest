@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageLightbox from './components/ImageLightbox';
 
 const ForkForest01: React.FC = () => {
   const images = [
@@ -53,11 +52,6 @@ const ForkForest01: React.FC = () => {
     "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-33.jpg",
     "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-34-18.jpg",
     "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-35.jpg",
-    "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-42.jpg",
-    "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-26.jpg",
-    "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-14.jpg",
-    "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-43.jpg",
-    "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-30.jpg",
     "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-39.jpg",
     "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-46-20.jpg",
     "/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2025-03-21_10-38-19.jpg",
@@ -72,7 +66,17 @@ const ForkForest01: React.FC = () => {
     <div className="container mx-auto px-4 py-8">
       <h3 className="text-3xl font-bold mb-6 text-center">FORK FOREST 01: Urkku</h3>
       <div data-component-name="ForkForest01">
-        <ImageLightbox images={images} alts={alts} />
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {images.map((image, index) => (
+            <div key={image}>
+              <img 
+                src={image} 
+                alt={alts[index]} 
+                className="w-full h-64 object-cover rounded-lg" 
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
