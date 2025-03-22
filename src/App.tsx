@@ -2,12 +2,13 @@ import { Link } from 'react-router-dom';
 import { 
   Heart, 
   Instagram, 
-  Twitter, 
   Github,
   ArrowRight,
   Users,
   Leaf
 } from 'lucide-react';
+import XIcon from './components/XIcon';
+import OpenSeaIcon from './components/OpenSeaIcon';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <header className="relative h-screen">
         <div className="absolute inset-0">
           <img 
-            src="/Fork Forest/photo_2025-03-21_10-43-52.jpg"
+            src="/Fork%20Forest/photo_2025-03-21_10-43-52.jpg"
             alt="Forest Background"
             className="w-full h-full object-cover"
           />
@@ -26,7 +27,7 @@ function App() {
         <nav className="relative z-10 flex justify-between items-center px-6 py-4">
           <div className="flex items-center space-x-2">
             <img 
-              src="/Fork Forest/fork_forest_transparent.png"
+              src="/Fork%20Forest/fork_forest_transparent.png"
               alt="Fork Forest Logo"
               className="h-16 w-auto"
             />
@@ -69,12 +70,12 @@ function App() {
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
                   <Users className="w-8 h-8 mx-auto text-green-600 mb-2" />
-                  <p className="font-bold text-2xl">1200+</p>
+                  <p className="font-bold text-2xl">700</p>
                   <p className="text-gray-600">Trees Planted</p>
                 </div>
                 <div>
                   <Users className="w-8 h-8 mx-auto text-green-600 mb-2" />
-                  <p className="font-bold text-2xl">500+</p>
+                  <p className="font-bold text-2xl">300</p>
                   <p className="text-gray-600">Volunteers</p>
                 </div>
                 <div>
@@ -86,7 +87,7 @@ function App() {
             </div>
             <div>
               <img 
-                src="/FORK FOREST 02: Los Cerrillos/Territorio/photo_2025-03-17_21-51-14.jpg"
+                src="/FORK%20FOREST%2002:%20Los%20Cerrillos/Territorio/photo_2025-03-17_21-51-14.jpg"
                 alt="Team working"
                 className="rounded-lg shadow-lg w-full h-auto"
                 style={{ maxHeight: '500px', objectFit: 'cover' }}
@@ -105,7 +106,7 @@ function App() {
             {/* Project 1 - Urkku */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/FORK FOREST 01: Urkku/Territorio/photo_2023-03-22_10-50-55.jpg"
+                src="/FORK%20FOREST%2001:%20Urkku/Territorio/photo_2023-03-22_10-50-55.jpg"
                 alt="Urban Forest Project"
                 className="w-full h-64 object-cover"
                 style={{ objectPosition: 'center' }}
@@ -125,7 +126,7 @@ function App() {
             {/* Project 2 - Los Cerrillos */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/FORK FOREST 02: Los Cerrillos/photo_2025-03-21_10-45-41.jpg"
+                src="/FORK%20FOREST%2002:%20Los%20Cerrillos/photo_2025-03-21_10-45-41.jpg"
                 alt="Los Cerrillos Project"
                 className="w-full h-64 object-cover"
                 style={{ objectPosition: 'center' }}
@@ -145,7 +146,7 @@ function App() {
             {/* Project 3 - Environmental Education */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/FORK FOREST 03: Muralla viva II/photo_2025-03-21_10-43-04.jpg"
+                src="/FORK%20FOREST%2003:%20Muralla%20viva%20II/photo_2025-03-21_10-43-04.jpg"
                 alt="Education Program"
                 className="w-full h-64 object-cover"
                 style={{ objectPosition: 'center' }}
@@ -161,6 +162,25 @@ function App() {
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Podcast Section */}
+      <section className="py-20 px-6 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-6">FORK FOREST Podcast</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto mb-8">
+              Explora nuestras conversaciones sobre conservación forestal, sostenibilidad y tecnología blockchain. 
+              Únete a nosotros mientras entrevistamos a expertos y compartimos historias inspiradoras del campo.
+            </p>
+            <Link 
+              to="/podcast" 
+              className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition duration-300 inline-flex items-center"
+            >
+              Ver Todos los Episodios <ArrowRight className="ml-2 w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
@@ -196,25 +216,28 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <img 
-                src="/Fork Forest/fork_forest_transparent.png"
+                src="/Fork%20Forest/fork_forest_transparent.png"
                 alt="Fork Forest Logo"
                 className="h-16 w-auto"
               />
             </div>
             <div className="flex space-x-6">
-              <a href="https://instagram.com" className="hover:text-green-400">
+              <a href="https://www.instagram.com/zapamzucumorg/" className="hover:text-green-400" target="_blank" rel="noopener noreferrer">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="https://twitter.com" className="hover:text-green-400">
-                <Twitter className="w-6 h-6" />
+              <a href="https://twitter.com/ForkForest" className="hover:text-green-400" target="_blank" rel="noopener noreferrer">
+                <XIcon />
               </a>
-              <a href="https://github.com" className="hover:text-green-400">
+              <a href="https://github.com/fberty/ForkForest" className="hover:text-green-400" target="_blank" rel="noopener noreferrer">
                 <Github className="w-6 h-6" />
+              </a>
+              <a href="https://opensea.io/collection/forestnft-1" className="hover:text-green-400" target="_blank" rel="noopener noreferrer">
+                <OpenSeaIcon />
               </a>
             </div>
           </div>
           <div className="mt-8 text-center text-gray-400">
-            <p>&copy; 2024 Fork Forest. All rights reserved.</p>
+            <p>&copy; 2025 Fork Forest. All rights reserved.</p>
           </div>
         </div>
       </footer>
