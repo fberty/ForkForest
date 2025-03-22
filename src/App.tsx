@@ -53,35 +53,43 @@ function App() {
       </div>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-6">
-        <div className="max-w-7xl mx-auto">
+      <section
+        id="about"
+        className="py-20 px-6 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url("/FORK%20FOREST%2002:%20Los%20Cerrillos/Territorio/photo_2025-03-17_21-53-24.jpg")',
+          position: 'relative'
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">About Fork Forest</h2>
-              <p className="text-gray-600 mb-4">
+              <h2 className="text-4xl font-bold mb-6 text-white drop-shadow-lg tracking-wide">About Fork Forest</h2>
+              <p className="text-gray-100 mb-4 text-lg drop-shadow-lg font-medium leading-relaxed">
                 Fork Forest is a community-driven initiative focused on creating sustainable environmental solutions through forest conservation and community engagement. Our projects combine ecological restoration with social impact, ensuring a better future for both nature and people.
               </p>
               <Link 
-                to="/about" 
-                className="inline-block px-6 py-2 mb-6 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+                to="/about"
+                className="inline-block px-6 py-2 mb-6 bg-green-500 text-white rounded-lg hover:bg-green-600 transition shadow-lg font-semibold"
               >
                 Learn More
               </Link>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <Users className="w-8 h-8 mx-auto text-green-600 mb-2" />
-                  <p className="font-bold text-2xl">700</p>
-                  <p className="text-gray-600">Trees Planted</p>
+                  <Users className="w-8 h-8 mx-auto text-green-300 mb-2 drop-shadow-lg" />
+                  <p className="font-bold text-2xl text-white drop-shadow-lg">700</p>
+                  <p className="text-gray-100 drop-shadow-lg font-medium">Trees Planted</p>
                 </div>
                 <div>
-                  <Users className="w-8 h-8 mx-auto text-green-600 mb-2" />
-                  <p className="font-bold text-2xl">300</p>
-                  <p className="text-gray-600">Volunteers</p>
+                  <Users className="w-8 h-8 mx-auto text-green-300 mb-2 drop-shadow-lg" />
+                  <p className="font-bold text-2xl text-white drop-shadow-lg">300</p>
+                  <p className="text-gray-100 drop-shadow-lg font-medium">Volunteers</p>
                 </div>
                 <div>
-                  <Leaf className="w-8 h-8 mx-auto text-green-600 mb-2" />
-                  <p className="font-bold text-2xl">3</p>
-                  <p className="text-gray-600">Projects</p>
+                  <Leaf className="w-8 h-8 mx-auto text-green-300 mb-2 drop-shadow-lg" />
+                  <p className="font-bold text-2xl text-white drop-shadow-lg">3</p>
+                  <p className="text-gray-100 drop-shadow-lg font-medium">Projects</p>
                 </div>
               </div>
             </div>
@@ -167,17 +175,23 @@ function App() {
       </section>
 
       {/* Podcast Section */}
-      <section className="py-20 px-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
+      <section 
+        className="py-20 px-6 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url("/Fork%20Forest/photo_2025-03-21_10-30-29.jpg")',
+          position: 'relative'
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-6">FORK FOREST Podcast</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto mb-8">
-              Explora nuestras conversaciones sobre conservación forestal, sostenibilidad y tecnología blockchain. 
-              Únete a nosotros mientras entrevistamos a expertos y compartimos historias inspiradoras del campo.
+            <h2 className="text-4xl font-bold mb-6 text-white drop-shadow-lg tracking-wide">FORK FOREST Podcast</h2>
+            <p className="text-gray-100 max-w-2xl mx-auto mb-8 text-lg drop-shadow-lg font-medium leading-relaxed">
+              Explora nuestras conversaciones sobre conservación forestal, sostenibilidad y tecnología blockchain. Únete a nosotros mientras entrevistamos a expertos y compartimos historias inspiradoras del campo.
             </p>
             <Link 
               to="/podcast" 
-              className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition duration-300 inline-flex items-center"
+              className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition duration-300 inline-flex items-center shadow-lg"
             >
               Ver Todos los Episodios <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
@@ -193,14 +207,6 @@ function App() {
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             Your contribution helps us continue our work in forest conservation and community protection. Every donation makes a difference in creating a more sustainable future.
           </p>
-          <a 
-            href="https://forum.forkdaogov.xyz/t/fork-forest-02-los-cerrillos/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition duration-300 inline-flex items-center"
-          >
-            Donate Now <ArrowRight className="ml-2 w-4 h-4" />
-          </a>
           <div className="text-sm text-gray-500 mt-4">
             <p>Wallet Addresses:</p>
             <p>OETH: 0x84E420915147625c11c265FA61AEC826347204D1</p>
