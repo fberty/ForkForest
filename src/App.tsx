@@ -209,6 +209,8 @@ function App() {
           </p>
           <div className="text-sm text-earth-brown-500 mt-4">
             <p>Wallet Addresses:</p>
+            <p>ETHEREUM: 0x3a10Cef888a6F50b1cbfcFD0217c1f705a33D8f3</p>
+            <p>Fork Forest Multisigs</p>
             <p>OETH: 0x84E420915147625c11c265FA61AEC826347204D1</p>
             <p>ARB1: 0xB3C58fFa0BBC48138776fD9cc174e89f51397e65</p>
             <p>CELO: 0xBDD87C2ca3d916f4f9f1930e7FF3A313743AaB87</p>
