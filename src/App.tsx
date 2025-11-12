@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { 
   Heart, 
   Instagram, 
-  Github,
   ArrowRight,
   Users,
   Leaf
@@ -50,6 +49,38 @@ function App() {
           Join us in our mission to create sustainable forests and protect local 
           communities through environmental initiatives.
         </p>
+      </div>
+
+      {/* Featured Project: Fork Forest 4 – La Fábrica de Mundos */}
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-earth-brown-100 max-w-3xl mx-auto mb-12">
+        <img 
+          src="/trasla11.png"
+          alt="Fork Forest 4 – La Fábrica de Mundos"
+          className="w-full h-64 object-cover"
+          style={{ objectPosition: 'center' }}
+        />
+        <div className="p-6">
+          <h3 className="text-2xl md:text-3xl font-bold mb-3 text-earth-brown-700">FORK FOREST 04: La Fábrica de Mundos</h3>
+          <ul className="text-earth-brown-600 mb-4 list-disc list-inside">
+            <li><strong>Location:</strong> Los Molles, Traslasierra Valley, Córdoba, Argentina</li>
+            <li><strong>Type:</strong> Native tree nursery and self-sustaining production hub</li>
+            <li><strong>Start Year:</strong> 2025</li>
+            <li><strong>Status:</strong> In implementation</li>
+          </ul>
+          <p className="text-earth-brown-600 mb-2">
+            🌱 <strong>Project Content:</strong> Establishing a native tree nursery and a self-sustaining production hub to foster ecological restoration and sustainable development in the Traslasierra Valley. This initiative aims to:
+          </p>
+          <ul className="text-earth-brown-600 mb-2 list-disc list-inside ml-4">
+            <li>Produce and distribute native trees for reforestation and restoration.</li>
+            <li>Serve as a living laboratory for sustainable agriculture and permaculture.</li>
+            <li>Empower the local community with education and hands-on participation.</li>
+            <li>Promote biodiversity and resilience in the region’s ecosystems.</li>
+            <li>Develop models for self-sustaining, regenerative economies.</li>
+          </ul>
+          <p className="text-earth-brown-600">
+            <strong>Vision:</strong> To become a beacon for ecological restoration and community-driven sustainability in Argentina and beyond.
+          </p>
+        </div>
       </div>
 
       {/* About Section */}
@@ -170,6 +201,7 @@ function App() {
                 </Link>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -235,9 +267,6 @@ function App() {
               </a>
               <a href="https://twitter.com/ForkForest" className="hover:text-earth-green-300" target="_blank" rel="noopener noreferrer">
                 <XIcon />
-              </a>
-              <a href="https://github.com/fberty/ForkForest" className="hover:text-earth-green-300" target="_blank" rel="noopener noreferrer">
-                <Github className="w-6 h-6" />
               </a>
               <a href="https://opensea.io/collection/forestnft-1" className="hover:text-earth-green-300" target="_blank" rel="noopener noreferrer">
                 <OpenSeaIcon />
