@@ -32,10 +32,11 @@ function App() {
             />
           </div>
           <div className="flex space-x-6 text-white">
-            <a href="#about" className="hover:text-earth-green-300">About</a>
-            <a href="#projects" className="hover:text-earth-green-300">Projects</a>
-            <a href="#donate" className="hover:text-earth-green-300">Donate</a>
-          </div>
+  <a href="#about" className="hover:text-earth-green-300">About</a>
+  <a href="#projects" className="hover:text-earth-green-300">Projects</a>
+  <a href="#donate" className="hover:text-earth-green-300">Donate</a>
+  <a href="/forum" className="hover:text-earth-green-300">Foro</a>
+</div>
         </nav>
       </header>
 
